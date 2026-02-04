@@ -1,0 +1,113 @@
+@import './variables.css';
+
+.header {
+  background: var(--primary-color);
+  color: var(--bg-white);
+  padding: var(--spacing-3xl);
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.container {
+  padding: var(--spacing-3xl);
+}
+
+.section {
+  background: var(--bg-white);
+  padding: var(--spacing-xl);
+  margin-bottom: var(--spacing-lg);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow);
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-md);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: var(--spacing-sm);
+}
+
+th {
+  background: var(--primary-light);
+  padding: var(--spacing-sm);
+  font-weight: 600;
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--border-color);
+  text-align: left;
+}
+
+td {
+  padding: var(--spacing-sm);
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: var(--spacing-xs);
+  border: 1px solid #ccc;
+  border-radius: var(--border-radius);
+  margin-top: var(--spacing-xs);
+  margin-bottom: var(--spacing-md);
+}
+
+.btn {
+  padding: 10px 16px;
+  background: var(--primary-color);
+  color: var(--bg-white);
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  margin-top: var(--spacing-sm);
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: var(--primary-dark);
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: var(--spacing-xs);
+  margin-top: var(--spacing-sm);
+}
+
+.output-box {
+  margin-top: var(--spacing-lg);
+  background: var(--bg-light);
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius-lg);
+}
+
+.priority-high {
+  color: var(--danger-color);
+}
+
+.priority-medium {
+  color: var(--warning-color);
+}
+
+.priority-low {
+  color: var(--success-color);
+}
+
+.gap-red {
+  color: var(--danger-color);
+}
+
+.gap-green {
+  color: var(--success-color);
+}
+
+.hidden {
+  display: none;
+}
